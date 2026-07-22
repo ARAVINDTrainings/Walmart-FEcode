@@ -1,0 +1,18 @@
+# Function to calculate the area of a rectangle
+def calculate_area(length, width):
+    return length * width
+
+# Get user input and convert to floats
+try:
+    user_length = float(input("Enter the length: "))
+    user_width = float(input("Enter the width: "))
+    
+    # Check if numbers are positive
+    if user_length > 0 and user_width > 0:
+        area = calculate_area(user_length, user_width)
+        print(f"The calculated area is: {area}")
+    else:
+        print("Please enter positive numbers.")
+except ValueError:
+    print("Invalid input! Please enter numeric values.")
+Use code with caution.Would you like this example adapted for a specific task like data analysis, web scraping, or file automation? Let me know if you want to explore loops or object-oriented programming next.Python Examples - W3SchoolsPython Syntax. Print "Hello World" Comments in Python Docstrings. Syntax Explained. Python Variables. Create a variable Output bot...W3SchoolsPython Examples | ProgramizThis page contains examples of basic concepts of Python programming like loops, functions, native datatypes and so on.ProgramizSimplePrograms - Python Wiki1 line: Output. print ('Hello, world!') 2 lines: Input, assignment. name = input('What is your name?\ n') print (f'Hi, {name}. ') ...Python.org - Wiki10 basic Python programs for beginners | by ASHWIN.S | Medium19 Jul 2022 — Here are some basic Python programs: * **Adding two numbers** * `num1 = 18` * `num2 = 7` * `sum = num1 + num2` * `print(f“Sum of {Medium        
